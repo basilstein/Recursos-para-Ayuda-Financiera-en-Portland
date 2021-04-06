@@ -4,12 +4,15 @@
 </title>
 <script type = "text/javascript">
     function spanish(){
-            localStorage.setItem(language, "spanish")
+            localStorage.setItem("language", "spanish")
             location.reload()
     }
     function english(){
-            localStorage.setItem(language, "spanish")
+            localStorage.setItem("language", "spanish")
             location.reload()
+    }
+    if(localStorage.getItem("language") == "spanish"){
+        document.write("")
     }
 </script>
 <a href="index.html">Inicio</a>
