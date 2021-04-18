@@ -6,14 +6,13 @@ body {
 	max-width: 50rem;
 	font-family: sans-serif;
 }
-.menu {
+.menu, .language {
 	display: flex;
 	flex-wrap: wrap;
 	list-style-type: none;
-	max-width: 50rem;
 	padding: 0.2rem;
 }
-.menu > a {
+.menu a, .language a {
 	border: 1px solid #000000;
 	color: #000000;
 	flex-grow: 1;
@@ -24,4 +23,10 @@ body {
 	padding: 0.6rem;
 	text-align: center;
 	text-decoration: none;
+}
+.menu {
+	max-width: 50rem;
+}
+.language {
+	max-width: 20rem;
 }
