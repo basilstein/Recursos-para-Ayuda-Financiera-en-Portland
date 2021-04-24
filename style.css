@@ -1,7 +1,14 @@
+:root{
+	--positive-color: #000000;
+	--negative-color: #adadad;
+	--secondary-color: #404040;
+}
 html {
 	padding: 0 1rem;
 }
 body {
+	color: var(--positive-color);
+	background-color: var(--negative-color);
 	margin: auto;
 	max-width: 50rem;
 	font-family: sans-serif;
@@ -9,12 +16,11 @@ body {
 .menu, .language {
 	display: flex;
 	flex-wrap: wrap;
-	list-style-type: none;
 	padding: 0.2rem;
 }
 .menu a, .language a {
-	border: 1px solid #000000;
-	color: #000000;
+	border: 1px solid var(--positive-color);
+	color: var(--positive-color);
 	flex-grow: 1;
 	float: left;
 	font-weight: bold;
@@ -26,6 +32,9 @@ body {
 }
 .menu {
 	max-width: 50rem;
+}
+.menu .active {
+
 }
 .language {
 	max-width: 20rem;
