@@ -33,9 +33,13 @@ body {
 .menu {
 	max-width: 50rem;
 }
-.menu .active {
-
-}
 .language {
 	max-width: 20rem;
+}
+.menu :hover, .language :hover {
+	background-color: var(--secondary-color);
+}
+.menu .active, .language .active {
+	background-color: var(--positive-color);
+	color: var(--negative-color);
 }
