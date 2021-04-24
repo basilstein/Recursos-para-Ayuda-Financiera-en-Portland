@@ -1,10 +1,10 @@
 :root{
 	--positive-color: #000000;
-	--negative-color: #adadad;
+	--negative-color: #868686;
 	--secondary-color: #404040;
 }
 html {
-	padding: 0 1rem;
+	padding: 1rem;
 }
 body {
 	color: var(--positive-color);
